@@ -24,6 +24,9 @@ const schemaReact = new Schema(
             default: Date.now,
             get: createdOnVal => moment(createdOnVal).format("MMM DD, YYYY [at] hh:mm a"),
         },
+       
+    },
+    {
         toJSON:{
             virtuals: true,
             getters: true
