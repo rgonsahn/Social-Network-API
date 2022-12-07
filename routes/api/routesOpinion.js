@@ -1,4 +1,4 @@
-const opinionController = require('../controllers/opinionController');
+const opinionController = require('../../controllers/opinionController');
 
 const router= require('express').Router();
 
